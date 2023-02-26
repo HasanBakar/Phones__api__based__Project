@@ -7,7 +7,7 @@ displayPhone(data.data)
 
 
 const displayPhone = (phones) =>{
-    console.log(phones)
+    // console.log(phones)
     const container = document.getElementById('container');
     container.innerText = " ";
     const notFoundDiv = document.getElementById('not_found_message');
